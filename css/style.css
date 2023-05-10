@@ -1,4 +1,4 @@
-/******* Bootstrap Theming ********/
+  /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -4267,6 +4267,7 @@ input[type="button"].btn-block {
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
     padding-right: 0;
     padding-left: 0;
+
   }
 }
 
@@ -7731,7 +7732,7 @@ button.bg-dark:focus {
 }
 
 .p-0 {
-  padding: 0 !important;
+  padding: 5px !important;
 }
 
 .pt-0,
@@ -10011,3 +10012,92 @@ h4, h5, h6 {
   
   }
 
+
+  .ab-1{
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    border: #B49C73 solid;
+    box-shadow: 10px 10px;
+    position: relative;
+    left: 200px;
+    height: 550px;
+    width: 1200px;
+    overflow: auto;
+    border-radius: 50px;
+
+  }
+    @media (max-width: 991.98px) {
+      .ab-1 {
+        width: 100%;
+        height: 650px;
+        margin: 0px !important;
+        position: static !important;
+    
+      }
+    }
+  
+    @media (max-width: 767.98px) {
+      .ab-1 {
+        width: 100%;
+        height: 750px;
+        margin: 0px !important;
+        position: static !important;
+      }
+    }
+  
+    @media (max-width: 575.98px) {
+      .ab-1 {
+          width: 100%;
+          height: 950px;
+          position: static !important;
+          
+        }
+  
+    }
+
+
+        .ab-3 {
+          box-sizing: border-box;
+          padding: 20px;
+          text-align: left;
+          border: #B49C73 solid;
+          box-shadow: 10px 10px;
+          height: 750px;
+          width: 1200px;
+          overflow: auto;
+          position: static;
+          margin-left:200px !important ;
+          margin:20px;
+          margin-top: 70px;
+          border-radius: 50px;
+    
+        }
+    
+        @media (max-width: 991.98px) {
+          .ab-3 {
+            width: 100%;
+            height: 870px;
+            margin-left: 0px !important;
+           
+          }
+        }
+    
+        @media (max-width: 767.98px) {
+          .ab-3 {
+            width: 100%;
+            height: 1050px;
+            margin-left: 0px !important;
+            
+
+          }
+        }
+    
+        @media (max-width: 575.98px) {
+          .ab-3 {
+            width: 100%;
+            height: 1350px;
+            margin-left: 0px !important;
+          }
+    
+        }

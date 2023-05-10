@@ -67,13 +67,14 @@
             992:{
                 items:3
             }
+           
         }
     });
 
 
     // Team carousel
     $(".team-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1500,
         margin: 30,
         dots: false,
@@ -88,14 +89,16 @@
                 items:1
             },
             576:{
-                items:2
+                items:1
             },
             768:{
-                items:3
+                items:2
             },
             992:{
-                items:4
+                items:2
+                
             }
+            
         }
     });
 
@@ -130,7 +133,7 @@
 window.addEventListener("load", function(){
     setTimeout(
         function open(event){
-            document.querySelector(".popup").style.display = "block";
+            // document.querySelector(".popup").style.display = "block";
         },
         1000
     )
@@ -150,7 +153,7 @@ document.querySelector("#agree").addEventListener("click", function(){
 window.addEventListener("load", function(){
     setTimeout(
         function open(event){
-            document.querySelector(".overlay").style.display = "block";
+            // document.querySelector(".overlay").style.display = "block";
         },
         1000
     )
